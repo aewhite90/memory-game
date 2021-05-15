@@ -2,7 +2,7 @@
   "name": "memory-card",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://aewhite90.github.io/memory-game",
+  "homepage": "https://aewhite90.github.io/memory-game/",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@tailwindui/react": "^0.1.1",
@@ -17,11 +17,11 @@
   },
   "scripts": {
     "start": "craco start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "craco build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

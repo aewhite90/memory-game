@@ -69,6 +69,7 @@ const Content = (props) => {
 
   useEffect(() => {
     setCards(shuffle([...cards]))
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
 
   const scorePoint = (e) => {
